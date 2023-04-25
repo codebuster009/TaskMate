@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: #159895;
+}
+.parent-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #159895;
+}
+.header{
+  align-self: center;
+  margin-top: 20px;
+  background-color:  #A5D7E8 ;
+  border: solid 3px #1A5F7A  ;
+  border-radius: 8px;
+  box-shadow: 8px 8px 4px rgba(20, 22, 21, 0.2), 0 0 10px rgba(11, 10, 10, 0.2);
+}
+
+
+.header > h1{
+  color: #0b3140;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+.input{
+  align-self: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.input-text{
+  padding: 20px;
+  width: 370px;
+  text-align: center;
+ color: #0b3140; 
+border-radius: 8px;
+background-color:  #A5D7E8 ;
+  border: solid 3px #1A5F7A  ;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  box-shadow: 8px 8px 4px rgba(20, 22, 21, 0.2), 0 0 10px rgba(11, 10, 10, 0.2);
+}
+.input > button{
+  width: 100px;
+  margin-top: 30px;
+  align-self: center;
+  background-color:  #A5D7E8 ;
+  border: solid 3px #1A5F7A  ;
+  border-radius: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  box-shadow: 4px 4px 4px rgba(20, 22, 21, 0.2), 0 0 10px rgba(11, 10, 10, 0.2);
+}
+.parent-ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parent-ul > li{
+  list-style: none;
+  margin-top: 20px;
+  border: dashed 3px #1A5F7A  ;
+  border-radius: 8px;
+  background-color:#C7E9B0 ;
+  color: #0b3140;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  font-family:'Times New Roman', Times, serif; ;
+}
+
+.congratulations-message{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 14px;
+}
