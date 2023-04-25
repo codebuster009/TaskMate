@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-TaskMate
+# TaskMate
 
 TaskMate is a simple web app created using React.js that allows users to add, complete and count tasks.
 Installation
