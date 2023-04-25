@@ -1,70 +1,63 @@
 # Getting Started with Create React App
+TaskMate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskMate is a simple web app created using React.js that allows users to add, complete and count tasks.
+Installation
 
-## Available Scripts
+To run TaskMate on your local machine, follow these steps:
 
-In the project directory, you can run:
+    Clone the repository to your local machine.
+    In the project directory, run npm install to install the required dependencies.
+    Run npm start to start the development server.
+    Open http://localhost:3000 to view TaskMate in your browser.
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+TaskMate provides the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Add tasks: Users can add tasks by entering task details in the input field and clicking the "Add Task" button.
+    Complete tasks: Users can mark tasks as complete by clicking on the task. Completed tasks are displayed with a line-through effect.
+    Count tasks: TaskMate displays the number of completed and uncompleted tasks in the header of the app.
+    Congratulate message: TaskMate displays a congratulatory message when all tasks have been completed.
 
-### `npm test`
+Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The TaskMate project has the following folder structure:
 
-### `npm run build`
+css
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TaskMate
+│   README.md
+│   package.json
+│   ...
+│
+└───src
+│   │   index.js
+        App.js
+│   │   ...
+│   └───components
+│       │   Header.js
+│       │   Input.js
+│       │   ...
+│   
+└───public
+    │   index.html
+    │   ...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The src folder contains the main application code and the public folder contains the HTML file for the application.
+Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use TaskMate, follow these steps:
 
-### `npm run eject`
+    Enter task details in the input field and click the "Add Task" button to add a new task.
+    Click on a task to mark it as complete. Completed tasks are displayed with a line-through effect.
+    View the number of completed and uncompleted tasks in the header of the app.
+    If all tasks have been completed, a congratulatory message will be displayed below the task list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MIT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
